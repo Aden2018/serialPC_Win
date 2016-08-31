@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/btn">
+        <file>sound/btn1.wav</file>
+        <file>sound/btn2.wav</file>
+        <file>sound/btn3.wav</file>
+    </qresource>
+    <qresource prefix="/prompt">
+        <file>sound/success.wav</file>
+        <file>sound/wrong.wav</file>
+    </qresource>
+</RCC>

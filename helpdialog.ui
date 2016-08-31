@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HelpDialog</class>
+ <widget class="QDialog" name="HelpDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>541</width>
+    <height>436</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>帮助</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="serialresource.qrc">
+    <normaloff>:/icon/icon/mainicon.png</normaloff>:/icon/icon/mainicon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#HelpDialog{border-image: url(:/back/back/back4.jpg);}</string>
+  </property>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>30</y>
+     <width>151</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;楷体&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_help">
+   <property name="geometry">
+    <rect>
+     <x>215</x>
+     <y>30</y>
+     <width>301</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;楷体&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_help">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>400</y>
+     <width>141</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 12pt &quot;楷体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>help</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="serialresource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
